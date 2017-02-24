@@ -1,0 +1,59 @@
+/**** header **/
+html{
+}
+.navbar-header {
+    float: right;
+}
+
+#header > div > div > div > div.col-sm-9.nav-right.np {
+    float: right !important;
+}
+.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+    float: right;
+}
+.navbar-nav>li {
+}
+#header > div > div > div > div.col-sm-3 > div > button {
+    float: left;
+    left: -15px;
+}
+.lead {
+    font-size: 21px;
+    direction: rtl;
+}
+#contact-form {
+    direction: rtl;
+}
+#footer > div > div > ul {
+    padding: 36px;
+}
+.navbar-brand {
+
+   padding: 0 !important; 
+
+}
+#header > div > div > div > div.col-sm-9.np {
+    margin-top: 24px;
+}
+
+
+
+@media only screen and (max-width: 500px) {
+
+
+#header > div > div > div > div.col-sm-3 > div > button {
+    float: left;
+    left: -143px;
+}
+a.navbar-brand img {
+    width: 77px;
+}
+.ceo-overlay > img {
+    width: 170px !important;
+    margin: auto;
+    text-align: center;
+    display: block;
+    float: inherit;
+}
+    
+}
